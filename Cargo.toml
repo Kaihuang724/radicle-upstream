@@ -17,6 +17,10 @@ tag = "cycle/2021-12-14"
 git = "https://github.com/radicle-dev/radicle-link.git"
 tag = "cycle/2021-12-14"
 
+[patch.crates-io.link-replication]
+git = "https://github.com/radicle-dev/radicle-link.git"
+tag = "cycle/2021-12-14"
+
 [patch.crates-io.rad-identities]
 git = "https://github.com/radicle-dev/radicle-link.git"
 tag = "cycle/2021-12-14"
