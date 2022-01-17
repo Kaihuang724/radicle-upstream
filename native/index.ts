@@ -38,7 +38,9 @@ if (isDev) {
   proxyArgs.push(
     "--skip-remote-helper-install",
     "--unsafe-fast-keystore",
-    "--dev-log"
+    "--dev-log",
+    "--http-listen",
+    "127.0.0.1:40000"
   );
 } else {
   // Packaged app, i.e. production.
