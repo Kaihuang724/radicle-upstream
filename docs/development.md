@@ -53,7 +53,7 @@ initialized with user name `1`. The `RAD_HOME` for the instance is
 To connect a second instance to the first one run
 
 ```bash
-scripts/devnet.ts upstream 2 --boostrap 1
+scripts/devnet.ts upstream 2 --bootstrap 1
 ```
 
 Make sure you rebuild the project before running instances
@@ -63,7 +63,7 @@ cargo build
 yarn run webpack --config-name ui
 ```
 
-You can also run a seed peer with that tracks a certain project.
+You can also run a seed peer that tracks a certain project.
 
 ```bash
 scripts/devnet.ts seed --project <urn>

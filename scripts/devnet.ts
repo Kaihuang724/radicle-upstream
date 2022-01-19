@@ -1,4 +1,4 @@
-#!/usr/bin/env -S node --require ts-node/register/transpile-only --require tsconfig-paths/register
+#!/usr/bin/env -S node --require ts-node/register/transpile-only
 
 // Copyright © 2022 The Radicle Upstream Contributors
 //
